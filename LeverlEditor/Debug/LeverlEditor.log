@@ -1,0 +1,8 @@
+﻿  LeverlEditor.cpp
+D:\_Dev\CGSpectrum\Game Programming\Term 1\Week 6\Maze\LeverlEditor\LeverlEditor.cpp(11,34): warning C4309: 'initializing': truncation of constant value
+D:\_Dev\CGSpectrum\Game Programming\Term 1\Week 6\Maze\LeverlEditor\LeverlEditor.cpp(12,33): warning C4309: 'initializing': truncation of constant value
+D:\_Dev\CGSpectrum\Game Programming\Term 1\Week 6\Maze\LeverlEditor\LeverlEditor.cpp(13,37): warning C4309: 'initializing': truncation of constant value
+D:\_Dev\CGSpectrum\Game Programming\Term 1\Week 6\Maze\LeverlEditor\LeverlEditor.cpp(14,36): warning C4309: 'initializing': truncation of constant value
+D:\_Dev\CGSpectrum\Game Programming\Term 1\Week 6\Maze\LeverlEditor\LeverlEditor.cpp(15,36): warning C4309: 'initializing': truncation of constant value
+D:\_Dev\CGSpectrum\Game Programming\Term 1\Week 6\Maze\LeverlEditor\LeverlEditor.cpp(16,34): warning C4309: 'initializing': truncation of constant value
+  LeverlEditor.vcxproj -> D:\_Dev\CGSpectrum\Game Programming\Term 1\Week 6\Maze\Debug\LeverlEditor.exe
