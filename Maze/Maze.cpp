@@ -33,7 +33,7 @@ int main()
 	int Width = 25;
 	int Height = 15;
 
-	char* LevelArray = LoadLevel("FirstLevel.txt", Width, Height);
+	char* LevelArray = LoadLevel("SecondLevel.txt", Width, Height);
 
 	int playerX = 1;
 	int playerY = 1;
@@ -69,7 +69,7 @@ int main()
 
 char* LoadLevel(string LevelName, int& Width, int& Height)
 {
-	LevelName.insert(0, "..");
+	LevelName.insert(0, "../");
 	ifstream levelFile;
 	levelFile.open(LevelName);
 	if (!levelFile)
