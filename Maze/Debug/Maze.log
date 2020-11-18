@@ -1,4 +1,2 @@
-﻿  Maze.cpp
-D:\_Dev\CGSpectrum\Game Programming\Term 1\Week 6\Maze\Maze\Maze.cpp(10,23): warning C4309: 'initializing': truncation of constant value
-D:\_Dev\CGSpectrum\Game Programming\Term 1\Week 6\Maze\Maze\Maze.cpp(11,22): warning C4309: 'initializing': truncation of constant value
+﻿  Game.cpp
   Maze.vcxproj -> D:\_Dev\CGSpectrum\Game Programming\Term 1\Week 6\Maze\Debug\Maze.exe

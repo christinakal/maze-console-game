@@ -228,7 +228,7 @@ void SaveLevel(char* pLevel, int width, int height)
     {
         LevelFile << width << endl;
         LevelFile << height << endl;
-        LevelFile.write(pLevel, width * height);
+        LevelFile.write(pLevel, (long long)width * (long long)height);
 
         if (!LevelFile)
         {
