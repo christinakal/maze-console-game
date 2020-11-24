@@ -2,48 +2,49 @@
 
 // constructor
 PlaceableActor::PlaceableActor(int x, int y, int color = kRegularColor)
+	:m_pPosition(new Point(x,y))
+	,m_IsActive(true)
+	,m_color(color)
 {
 
 }
 
-virtual PlaceableActor::~PlaceableActor()
+PlaceableActor::~PlaceableActor()
 {
-
+	delete m_pPosition;
+	m_pPosition = nullptr;
 }
 
 int PlaceableActor::GetXPosition()
 {
-
+	return m_pPosition->x;
 }
 
 int PlaceableActor::GetYPosition()
 {
-
+	return m_pPosition->y;
 }
 
 int* PlaceableActor::GetXPositionPointer()
 {
-
+	return &(m_pPosition->x);
 }
 
 int* PlaceableActor::GetYPositionPointer()
 {
-
+	return &(m_pPosition->y);
 }
 
 void PlaceableActor::SetPosition(int x, int y)
 {
-
+	m_pPosition->x = x;
+	m_pPosition->y = y;
 }
 
-//override void PlaceableActor::Place();
-
-void PlaceableActor::Draw()
+void PlaceableActor::Place(int x, int y)
 {
-
+	m_pPosition->x = x;
+	m_pPosition->y = y;
+	m_IsActive = true;
 }
 
-void PlaceableActor::Update()
-{
-
-}
