@@ -1,0 +1,7 @@
+﻿  Game.cpp
+  Level.cpp
+C:\Users\devel\Documents\Game Dev\Maze\Maze\Level.cpp(95,47): warning C4553: '==': result of expression not used; did you intend '='?
+  Maze.cpp
+  Player.cpp
+  Generating Code...
+  Maze.vcxproj -> C:\Users\devel\Documents\Game Dev\Maze\x64\Debug\Maze.exe
