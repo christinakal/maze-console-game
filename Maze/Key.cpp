@@ -3,6 +3,7 @@
 #include "Key.h"
 
 using namespace std;
+
 void Key::Draw()
 {
 	HANDLE console = GetStdHandle(STD_OUTPUT_HANDLE);
