@@ -1,7 +1,7 @@
 #include "PlacableActor.h"
 
 // constructor
-PlaceableActor::PlaceableActor(int x, int y, int color = kRegularColor)
+PlaceableActor::PlaceableActor(int x, int y, int color)
 	:m_pPosition(new Point(x,y))
 	,m_IsActive(true)
 	,m_color(color)

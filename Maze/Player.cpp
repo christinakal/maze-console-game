@@ -27,7 +27,7 @@ bool Player::HasKey(int color)
 
 void Player::PickupKey(Key* key)
 {
-	m_pCurrentKey = false;
+	m_pCurrentKey = nullptr;
 }
 
 void Player::UseKey()

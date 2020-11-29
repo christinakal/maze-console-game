@@ -8,6 +8,7 @@ class Game
 	Level m_Level;
 
 	bool m_GameOver;
+	bool m_UserQuit;
 
 public:
 	Game();
@@ -17,8 +18,12 @@ public:
 	void Run();
 
 	bool GameOver();
+	bool DidUserQuit() { return m_UserQuit; }
+	int GetPlayerLives() { return m_Player.GetLives();  }
 
 private:
 	bool Update();
 	void Draw();
+
+	bool HandleCollision(int newPlayerX, int newPlayerY);
 };
