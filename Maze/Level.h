@@ -1,5 +1,8 @@
 #pragma once
 #include <string>
+#include <vector>
+
+class PlaceableActor;
 
 class Level
 {
@@ -7,20 +10,20 @@ class Level
 	int m_Height;
 	int m_Width;
 
+	std::vector<PlaceableActor*> m_pActors;
+
 public:
 	Level();
 
 	~Level();
 
 	bool Load(std::string LevelName, int* PlayerX, int* PlayerY);
-	void Draw(int x, int y);
-	bool IsSpace(int x, int y);
-	bool IsDoor(int x, int y); 
-	bool IsKey(int x, int y);
-	bool IsGoal(int x, int y);
+	void Draw();
 
-	void PickUpKey(int x, int y);
-	void OpenDoor(int x, int y);
+
+	bool IsSpace(int x, int y);
+	bool IsWall(int x, int y);
+	PlaceableActor* UpdateActors(int x, int y);
 
 	int GetHeight() { return m_Height; }
 	int GetWidth() { return m_Width;  }

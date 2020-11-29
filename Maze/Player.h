@@ -10,7 +10,7 @@ public:
 
 	bool HasKey();
 	bool HasKey(int color);
-	void PickupKey(Key* ket);
+	void PickupKey(Key* key);
 	void UseKey();
 	void DropKey();
 

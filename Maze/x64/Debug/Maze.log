@@ -1,7 +1,13 @@
 ﻿  Game.cpp
-  Level.cpp
-C:\Users\devel\Documents\Game Dev\Maze\Maze\Level.cpp(95,47): warning C4553: '==': result of expression not used; did you intend '='?
+D:\_Dev\cgspectrum\Game Programming\Term 1\Maze\Maze\Game.cpp(10,15): error C2374: 'kRegularColor': redefinition; multiple initialization
+D:\_Dev\cgspectrum\Game Programming\Term 1\Maze\Maze\PlacableActor.h(10): message : see declaration of 'kRegularColor'
+D:\_Dev\cgspectrum\Game Programming\Term 1\Maze\Maze\Game.cpp(83,22): error C2660: 'Player::PickupKey': function does not take 0 arguments
+D:\_Dev\cgspectrum\Game Programming\Term 1\Maze\Maze\Player.h(13,7): message : see declaration of 'Player::PickupKey'
   Maze.cpp
+  PlaceableActor.cpp
+D:\_Dev\cgspectrum\Game Programming\Term 1\Maze\Maze\PlaceableActor.cpp(4,58): error C2572: 'PlaceableActor::PlaceableActor': redefinition of default argument: parameter 1
+D:\_Dev\cgspectrum\Game Programming\Term 1\Maze\Maze\PlacableActor.h(17): message : see declaration of 'PlaceableActor::PlaceableActor'
   Player.cpp
+D:\_Dev\cgspectrum\Game Programming\Term 1\Maze\Maze\Player.cpp(30,23): error C2440: '=': cannot convert from 'bool' to 'Key *'
+D:\_Dev\cgspectrum\Game Programming\Term 1\Maze\Maze\Player.cpp(30,18): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
   Generating Code...
-  Maze.vcxproj -> C:\Users\devel\Documents\Game Dev\Maze\x64\Debug\Maze.exe
